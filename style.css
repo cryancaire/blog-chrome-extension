@@ -1,0 +1,49 @@
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 0.5em;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: min-content;
+    min-width: 250px;
+    background-color: black;
+    
+}
+
+.hide {
+    visibility: hidden;
+    position: absolute;
+    left: -999em;
+}
+
+.blog_list {
+    margin: 0.5em;
+}
+
+.blog_list a {
+    color: white;
+    font-size: 1.25em;
+}
+
+.blog_list a:visited {
+    color: white;
+    font-size: 1.25em;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feed_title {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
