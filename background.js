@@ -16,7 +16,7 @@ const getSuggestions = (text, suggest) => {
             let url = item.split('<link>')[1].split('</link>')[0];
             if (index == 0) return;
             let desc = item.split('<description><![CDATA[')[1].split(']]></description>')[0].substring(0, descLen);
-            suggestions.push({content: `${title} url: ${url}`, description: `${desc}`});
+            suggestions.push({content: `${title} url: ${url}`, description: `${title} - ${desc}...`});
         });
     })
     .then(() => {
