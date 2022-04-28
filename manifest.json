@@ -1,7 +1,7 @@
 {
     "name": "CC Gaming Web Development Tutorials",
     "description" : "CC Gaming Web Development Tutorials Blogs",
-    "version" : "1.0",
+    "version" : "1.0.1",
     "manifest_version" : 3,
     "background": {
         "service_worker": "background.js"
